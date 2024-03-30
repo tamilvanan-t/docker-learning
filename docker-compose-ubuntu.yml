@@ -15,7 +15,11 @@ services:
       - NET_ADMIN
     ports:
       - 8007:8006
+      - 8081:22 #ssh port
     stop_grace_period: 2m
     restart: on-failure
     volumes:
-      - D:\Qemu_OS:/storage
+      - E:\Qemu_VMs\Ubuntu\:/storage
+
+
+#tamilvanan
