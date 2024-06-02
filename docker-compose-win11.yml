@@ -5,7 +5,7 @@ services:
     container_name: windows
     environment:
       VERSION: "win11"
-      DISK_SIZE: "80G"
+      DISK_SIZE: "50G"
       RAM_SIZE: "6G"
       CPU_CORES: "4"
     devices:
@@ -19,4 +19,4 @@ services:
     stop_grace_period: 2m
     restart: on-failure
     volumes:
-      - /media/tamilvanan/New Volume/Qemu_OS/Win11_Dot_delete:/storage
+      - /home/tamilvanan/Tamil_Vanan/Qemu_OS/Win11:/storage
