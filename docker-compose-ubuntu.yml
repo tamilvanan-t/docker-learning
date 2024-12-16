@@ -20,6 +20,12 @@ services:
     restart: on-failure
     volumes:
       - E:\Qemu_VMs\Ubuntu\:/storage
+    # networks:
+    #   vlan:
+    #     ipv4_address: 192.168.0.100
+  # networks:
+  # vlan:
+  #   external: true
 
 
 #tamilvanan

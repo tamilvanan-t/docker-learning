@@ -1,0 +1,9 @@
+version: "3"
+services:
+  ibmmq:
+    image: ibmcom/mq
+    container_name: ibmmq
+    environment:
+      LICENSE: "accept"
+    ports:
+      - 9443:9443
