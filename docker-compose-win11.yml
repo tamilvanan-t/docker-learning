@@ -5,8 +5,8 @@ services:
     container_name: windows
     environment:
       VERSION: "win11"
-      DISK_SIZE: "60G"
-      RAM_SIZE: "4G"
+      DISK_SIZE: "50G"
+      RAM_SIZE: "6G"
       CPU_CORES: "4"
     devices:
       - /dev/kvm
@@ -19,4 +19,4 @@ services:
     stop_grace_period: 2m
     restart: on-failure
     volumes:
-      - E:\Qemu_VMs\Win11\:/storage
+      - /home/tamilvanan/Tamil_Vanan/Qemu_OS/Win11:/storage
